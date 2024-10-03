@@ -1,7 +1,10 @@
 
 function countToN(n){
-    //Use a while loop to count to ten, using console.log to print what number you are on
-    // (YOUR CODE HERE)
+    while(n<15){
+    console.log("n = "+n)
+       n= n+1
+    console.log("n = "+n)
+    }
 }
 
 countToN(3);
